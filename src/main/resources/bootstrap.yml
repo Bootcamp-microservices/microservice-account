@@ -1,0 +1,11 @@
+eureka:
+  instance:
+    prefer-ip-address: true
+spring:
+  application:
+    name: microservice-account
+  cloud:
+    config:
+      enabled: true
+      label: main
+      uri: http://localhost:7000
